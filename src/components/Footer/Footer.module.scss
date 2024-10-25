@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  min-height: 50px;
+  padding: var(--spacing-md);
+  background-color: var(--color-dark);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  box-shadow: var(--shadow-sm);
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--spacing-sm);
+  a {
+    color: var(--color-light);
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .footer {
+    padding: var(--spacing-lg);
+    font-size: var(--font-size-md);
+  }
+}

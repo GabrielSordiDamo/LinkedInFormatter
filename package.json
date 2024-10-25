@@ -1,0 +1,36 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "sonar": "sonar-scanner"
+  },
+  "dependencies": {
+    "dompurify": "^3.1.7",
+    "quill": "^2.0.2",
+    "quill-delta-to-html": "^0.12.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "sass": "^1.80.4",
+    "string-to-unicode-variant": "^1.0.9",
+    "styled-components": "^6.1.13",
+    "typeit-react": "^2.7.7"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.5",
+    "@types/lodash.isequal": "^4.5.8",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "prettier": "^3.3.3",
+    "sonarqube-scanner": "^4.2.5",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.9"
+  }
+}

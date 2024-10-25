@@ -1,0 +1,33 @@
+.header {
+  font-family: Arial, serif;
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md);
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  .title {
+    font-size: 3rem;
+  }
+  .icons {
+    color: #f8f9fa;
+    display: flex;
+    gap: var(--spacing-sm);
+    .icon {
+      font-size: var(--icon-size-md);
+      color: var(--color-light);
+    }
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .header {
+    padding: var(--spacing-lg);
+    .icons {
+      .icon {
+        font-size: var(--icon-size-lg);
+      }
+    }
+  }
+}
