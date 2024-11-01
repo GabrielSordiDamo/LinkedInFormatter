@@ -1,3 +1,6 @@
+[![Git Hub Pages Deploy](https://github.com/GabrielSordiDamo/LinkedInFormatter/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/GabrielSordiDamo/LinkedInFormatter/actions/workflows/deploy.yml)
+
+[LinkedIn Formatter](https://gabrielsordidamo.github.io/LinkedInFormatter/)
 
 # LinkedIn Formatter
 
