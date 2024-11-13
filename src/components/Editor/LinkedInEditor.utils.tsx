@@ -63,12 +63,6 @@ export const formatOpp = (op: any) => {
         "italic",
         withCombinedAttributes(op),
       );
-    } else {
-      styledText = string_to_unicode_variant(
-        styledText,
-        "",
-        withCombinedAttributes(op),
-      );
     }
   }
   styledText = styledText.replace(/\n/g, "<span></br></span>");
