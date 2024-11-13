@@ -1,4 +1,6 @@
+[![Git Hub Pages Deploy](https://github.com/GabrielSordiDamo/LinkedInFormatter/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/GabrielSordiDamo/LinkedInFormatter/actions/workflows/deploy.yml)
 
+[Web App](https://gabrielsordidamo.github.io/LinkedInFormatter/)
 # LinkedIn Formatter
 
 LinkedIn Formatter is a tool designed to help you create, preview, and polish your LinkedIn posts with ease. With a built-in editor and preview pane, you can format your posts and see how they will appear on LinkedIn before sharing them.
